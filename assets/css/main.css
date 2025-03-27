@@ -1209,14 +1209,16 @@ section,
   font-weight: 700;
   margin-bottom: 5px;
   font-size: 18px;
-  color: color-mix(in srgb, var(--default-color), transparent 20%);
+  color: color-mix(in srgb, var(--default-color));
+  font-family: var(--heading-font);
 }
 
 .team .team-member .member-info span {
   display: block;
-  font-size: 13px;
+  font-size: 15px;
   font-weight: 400;
-  color: color-mix(in srgb, var(--default-color), transparent 40%);
+  color: color-mix(in srgb, var(--default-color));
+  font-family: var(--heading-font);
 }
 
 .team .team-member .member-info p {
