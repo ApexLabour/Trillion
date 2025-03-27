@@ -129,7 +129,7 @@ h6 {
   padding: 0;
   font-size: 14px;
   transition: all 0.5s;
-  border-bottom: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
+  border-bottom: 1px solid color-mix(in srgb, var(--default-color), transparent 80%);
 }
 
 .header .topbar .contact-info i {
@@ -752,7 +752,7 @@ section,
 
 .hero .carousel-item::before {
   content: "";
-  background-color: color-mix(in srgb, var(--background-color), transparent 20%);
+  background-color: color-mix(in srgb, var(--background-color), transparent 40%);
   position: absolute;
   inset: 0;
   z-index: 2;
